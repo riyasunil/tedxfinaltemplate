@@ -25,9 +25,17 @@
    }
 
    .red-background{
-      background-color: #ff0000 !important;
+      background-color: #000000 !important;
    }
-   
+   .text-white{
+    color:#fff !important;
+   }
+   .line-height{
+    line-height: 1.5 !important;
+   }
+   .text-red{
+    color:#eb0028 !important;
+   }
    .w-commerce-commerceaddtocartform {
      margin-top: 0px;
      margin-right: 0px;
@@ -2635,7 +2643,7 @@
      -webkit-transform: none;
      -ms-transform: none;
      transform: none;
-     color: #1c1c1c;
+     color: #fafafa;
      font-size: 96px;
      line-height: 1;
      font-weight: 600;
@@ -2651,7 +2659,7 @@
      -webkit-transform: scale(1);
      -ms-transform: scale(1);
      transform: scale(1);
-     color: #fff;
+     color: rgb(0, 0, 0);
    }
    
    .grid-8-columns {
@@ -3401,10 +3409,10 @@
      -webkit-transform: scale(1);
      -ms-transform: scale(1);
      transform: scale(1);
-     color: #fff;
+     color:#eb0028;
      font-size: 30em;
      line-height: 1;
-     font-weight: 200;
+     font-weight: 600;
      text-align: center;
    }
    
@@ -3425,7 +3433,9 @@
      padding-right: 40px;
      padding-left: 40px;
    }
-   
+   .p-5{
+      padding: 1.5rem !important;
+   }
    .hero-main-text-container {
      position: fixed;
      left: 0%;
