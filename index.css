@@ -3036,11 +3036,23 @@
      text-align: center;
    }
    
-   /* .footer1{
+   .footer1{
+    
+    background-color: white;
+    
+    padding: 20px;
+    border: pink 2px solid;
+   }
+
+   .footer{
+    display: flex;
     background-color: black;
     height: 300px;
-    width: 100vh;
-   } */
+    border: white 2px solid;
+    justify-content: center;
+    align-items: center;
+   }
+
    .footer-block {
      display: -webkit-box;
      display: -webkit-flex;
@@ -3058,8 +3070,8 @@
      justify-content: space-between;
      -webkit-box-align: start;
      -webkit-align-items: flex-start;
-     -ms-flex-align: start;
-     align-items: flex-start;
+     -ms-flex-align: center;
+     align-items: center;
      /* background-color: black;  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
    }
    
