@@ -3106,7 +3106,7 @@
      display: -ms-flexbox;
      display: flex;
      padding: 24px 25px;
-     /* color: white; */
+     color: white;
      -webkit-box-pack: center;
      -webkit-justify-content: center;
      -ms-flex-pack: center;
@@ -3115,6 +3115,7 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
+     
      /* border-top: 1px solid #e6e6e6;
      border-bottom: 1px solid #e6e6e6;
      border-left: 1px solid #e6e6e6;
