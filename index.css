@@ -2775,12 +2775,21 @@
    }
    
    .section {
+    
      position: relative;
      z-index: 2;
      overflow: hidden;
      padding: 5rem;
      background-color: #000;
      color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+  .whatistedx{
+    display: flex;
+    justify-content: center;
    }
    
    .section.main-hero {
