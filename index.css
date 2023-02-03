@@ -2540,7 +2540,7 @@
      margin-top: 20px;
      margin-bottom: 10px;
      font-family: 'Titillium Web', sans-serif;
-     font-size: 70px;
+     font-size: 50px;
      line-height: 1.25;
      font-weight: 400;
    }
@@ -2914,13 +2914,6 @@
      color: #6d6d6d;
    }
    
-   .footer {
-     position: relative;
-     z-index: 2;
-     overflow: hidden;
-     border-top: 1px solid #e6e6e6;
-     background-color: #fff;
-   }
    
    .grid-3-columns {
      grid-column-gap: 0px;
@@ -3057,14 +3050,19 @@
     border: pink 2px solid;
    }
 
-   .footer{
-    display: flex;
+   
+   .footer {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-top: 1px solid #e6e6e6;
     background-color: black;
     height: 400px;
-    border: white 2px solid;
+    display: flex;
     justify-content: center;
     align-items: center;
-   }
+  }
+
 
    .footer-block {
      display: -webkit-box;
@@ -3118,8 +3116,8 @@
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
-     padding: 24px 25px;
-     color: white;
+     padding: 10px 11px;
+     color: white ;
      -webkit-box-pack: center;
      -webkit-justify-content: center;
      -ms-flex-pack: center;
@@ -3128,6 +3126,8 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
+     width: 50px;
+    height: 50px;
      
      /* border-top: 1px solid #e6e6e6;
      border-bottom: 1px solid #e6e6e6;
@@ -3136,20 +3136,32 @@
      -webkit-transition: background-color 200ms ease, border-color 200ms ease;
      transition: background-color 200ms ease, border-color 200ms ease;
    }
+
+   #l{
+    padding-top: 5px;
+   }
+
    
+   
+   .social-media-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
    .social-media:hover {
      border-width: 1px;
      border-color: #eb0028;
      background-color: #eb0028;
    }
    
-   .social-media.last {
-     border-right: 1px solid #e6e6e6;
+   .text-white{
+    color: white !important;
    }
+   
    
    .footer-text{
     margin-top: 2rem;
-    color: white;
+    color: black;
    }
    .navbar {
      position: relative;
@@ -4709,8 +4721,8 @@
    .speaker-small-link {
      position: relative;
      overflow: hidden;
-     width: 70px;
-     height: 70px;
+     width: 50px;
+     height: 50px;
      border-style: solid;
      border-width: 2px;
      border-color: #eb0028;
@@ -5157,7 +5169,7 @@
      display: flex;
      width: 48px;
      height: 48px;
-     margin-right: 70px;
+     margin-right: 50px;
      -webkit-box-pack: center;
      -webkit-justify-content: center;
      -ms-flex-pack: center;
@@ -6254,7 +6266,7 @@
      }
    
      .hero-title {
-       font-size: 70px;
+       font-size: 50px;
      }
    
      .grid-8-columns {
@@ -6659,7 +6671,7 @@
      }
    
      .pricing-title.xl {
-       font-size: 70px;
+       font-size: 50px;
      }
    
      .pricing-button-holder {
