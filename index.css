@@ -12,6 +12,9 @@
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
+    body{
+      background-color: #000000 !important;
+    }
    .w-layout-grid {
      display: -ms-grid;
      display: grid;
@@ -3147,7 +3150,7 @@
      height: 80px;
      padding-right: 20px;
      padding-left: 20px;
-     background-color: #000;
+     background-color: rgb(21, 21, 21);
      /* width: 100vw; */
    }
    
