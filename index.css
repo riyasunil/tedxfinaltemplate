@@ -3057,7 +3057,7 @@
     overflow: hidden;
     border-top: 1px solid #e6e6e6;
     background-color: black;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3110,6 +3110,11 @@
      padding-top: 30px;
      padding-bottom: 30px;
    } */
+
+   .tedxmeclogo{
+    height: 25vh;
+   padding: 0px;
+   }
    
    .social-media {
      display: -webkit-box;
@@ -3163,6 +3168,24 @@
     margin-top: 2rem;
     color: black;
    }
+
+   /* .contactus{
+    height: 45vh;
+    background-color: black;
+    border-top: 1px white solid;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+   }
+
+   .card{
+    height: 40vh;
+    margin: 10px 20px 10px 20px;
+    width: 40vw;
+    border: 1px white solid;
+   } */
    .navbar {
      position: relative;
      top: auto;
