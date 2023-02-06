@@ -3194,11 +3194,12 @@
   }
 
    .contactus{
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    /* width: 100vw; */
     background-color: black;
     z-index: 3;
     position: relative;
+    /* border: 5px dotted pink; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3307,15 +3308,17 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: scale(0);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
     border-radius: 20px;
     margin: 0;
-    transition: 0.5s;
+    transition: ease 0.5s;
+    transition-delay: 0.5s;
    }
 
    .card:hover .personimg{
+    transform: ease 0.5s;
     transform: translate(50%, -50%) scale(1);
+ 
    }
 
  
