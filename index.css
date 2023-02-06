@@ -3169,7 +3169,7 @@
     color: black;
    }
 
-   /* .contactus{
+   .contactus{
     height: 45vh;
     background-color: black;
     border-top: 1px white solid;
@@ -3177,15 +3177,17 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
    }
 
    .card{
     height: 40vh;
     margin: 10px 20px 10px 20px;
-    width: 40vw;
+    width: 20vw;
     border: 1px white solid;
-   } */
+   }
    .navbar {
      position: relative;
      top: auto;
