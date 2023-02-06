@@ -3194,7 +3194,7 @@
 
    .card{
     position: relative;
-    height: 350px;
+    height: 300px;
     margin: 10px 20px 10px 20px;
     width: 300px;
     transition: 0.5s;
@@ -3205,7 +3205,7 @@
    }
 
    .card:hover{
-    width: 600px;
+    width: 320px;
     transition-delay: 0s;
    }
 
@@ -3248,7 +3248,7 @@
    }
 
    .card:hover .circle .team{
-  
+    transform: scale(0);
    }
 
    
