@@ -28,7 +28,11 @@
      grid-row-gap: 16px;
      grid-column-gap: 16px;
    }
-
+.team{
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
    .red-background{
       background-color: #000000 !important;
    }
