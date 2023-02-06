@@ -12,7 +12,9 @@
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
-    body{
+    @import "styles.css";
+    
+      body{
       background-color: #000000 !important;
     }
    .w-layout-grid {
@@ -3055,7 +3057,7 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-    border-top: 1px solid #e6e6e6;
+    /* border-top: 1px solid #e6e6e6; */
     background-color: black;
     height: 300px;
     display: flex;
@@ -3169,23 +3171,89 @@
     color: black;
    }
 
-   /* .contactus{
+ 
+  .contactustext{
+    background-color: black;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 0;
+  }
+
+   .contactus{
     height: 45vh;
     background-color: black;
-    border-top: 1px white solid;
     z-index: 3;
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
    }
 
    .card{
-    height: 40vh;
+    position: relative;
+    height: 350px;
     margin: 10px 20px 10px 20px;
-    width: 40vw;
-    border: 1px white solid;
-   } */
+    width: 300px;
+    transition: 0.5s;
+    transition-delay: 0s;
+    border-radius: 20px;
+   
+    /* border-radius: 50%; */
+   }
+
+   .card:hover{
+    width: 600px;
+    transition-delay: 0s;
+   }
+
+   .card .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .card .circle::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+
+   }
+   .card:hover .circle::before{
+    clip-path: circle(400px at center);
+   }
+
+   .card .circle .team{
+     position: relative;
+     width: 200px;
+     transition: 0.5s;
+
+
+   }
+
+   .card:hover .circle .team{
+  
+   }
+
+   
+
+
    .navbar {
      position: relative;
      top: auto;
@@ -4886,6 +4954,8 @@
      grid-template-columns: 1fr 1fr 1fr 1fr;
      -ms-grid-rows: auto;
      grid-template-rows: auto;
+     position: relative;
+     z-index: 3;
    }
    
    .speakers-grid.small {
@@ -4989,6 +5059,8 @@
    
    .heading-container {
      padding-bottom: 2em;
+     position: relative;
+     z-index: 3;
    }
    
    .speaker-hero-sticky {
@@ -5330,6 +5402,8 @@
    
    .speakers-grid-wrapper {
      width: 100%;
+     position: relative;
+     z-index: 3;
    }
    
    .cart-container {
