@@ -3303,6 +3303,11 @@
     font-size: 2em;
     line-height: 1em;
    }
+   .card-content h4{
+    text-transform: uppercase;
+    font-size: 1.7em;
+    line-height: 1em;
+   }
 
    .card .personimg{
     position: absolute;
@@ -3312,7 +3317,7 @@
     border-radius: 20px;
     margin: 0;
     transition: ease 0.5s;
-    transition-delay: 0.5s;
+    /* transition-delay: 0.5s; */
    }
 
    .card:hover .personimg{
