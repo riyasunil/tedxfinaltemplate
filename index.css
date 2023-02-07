@@ -1539,28 +1539,8 @@ textarea.w-select {
 .w-lightbox-noscroll {
   overflow: hidden;
 }
+
 @media (min-width: 768px) {
-  .image-fit-cover {
-    width: 90%;
-    height: 90%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: relative;
-    /* border: 2px dotted pink; */
-    /* border-radius: 50px; */
-  }
-
-  .rectangle {
-    position: absolute;
-    top: 50px;
-    left: 20px;
-
-    height: 90%;
-    background-color: #ff0000;
-    z-index: -1;
-    width: 90%;
-  }
-
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
@@ -5201,6 +5181,26 @@ figcaption {
 }
 
 @media only screen and (min-width: 900px) {
+  .image-fit-cover {
+    width: 90%;
+    height: 90%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    /* border: 2px dotted pink; */
+    /* border-radius: 50px; */
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+
+    height: 90%;
+    background-color: #ff0000;
+    z-index: -1;
+    width: 90%;
+  }
   .whatistedxsection {
     margin: 60px;
     padding: 10px 10%;
@@ -5878,28 +5878,6 @@ figcaption {
 
 .help-link-scroll-text {
   font-weight: 600;
-}
-
-.image-fit-cover {
-  width: 90%;
-  height: 90%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  position: relative;
-  /* border: 2px dotted pink; */
-  /* border-radius: 50px; */
-}
-
-.rectangle {
-  position: absolute;
-  top: 50px;
-  left: 20px;
-  
-  height: 90%;
-  background: linear-gradient(to bottom right, #eb0028, #000 );;
-  z-index: -1;
-  width: 90%;
-
 }
 
 .overflow-hidden {
