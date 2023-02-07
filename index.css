@@ -1583,7 +1583,7 @@ textarea.w-select {
   .w-lightbox-control:hover {
     opacity: 1;
   }
-}
+
 .w-lightbox-inactive,
 .w-lightbox-inactive:hover {
   opacity: 0;
@@ -12076,4 +12076,9 @@ figcaption {
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
   }
+}
+
+.meettheteam{
+  height: auto;
+  
 }
