@@ -5274,6 +5274,7 @@ figcaption {
 
   .card:hover .card-content {
     width: 100%;
+    transition: ease 0.5s;
   }
 
   .card:hover .personimg {
@@ -5282,6 +5283,7 @@ figcaption {
     left: 50%;
     transform: translate(-50%, 120%) scale(1);
     height: 300px;
+    transition: ease 0.5s;
   }
 }
 
