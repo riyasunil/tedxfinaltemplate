@@ -5191,26 +5191,7 @@ figcaption {
 }
 
 @media only screen and (min-width: 900px) {
-  .image-fit-cover {
-    width: 90%;
-    height: 90%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: relative;
-    /* border: 2px dotted pink; */
-    /* border-radius: 50px; */
-  }
-
-  .rectangle {
-    position: absolute;
-    top: 50px;
-    left: 20px;
-
-    height: 90%;
-    background-color: #ff0000;
-    z-index: -1;
-    width: 90%;
-  }
+  
   .whatistedxsection {
     margin: 60px;
     padding: 10px 10%;
