@@ -1556,7 +1556,7 @@ textarea.w-select {
     left: 20px;
 
     height: 90%;
-    background-color: #ff0000;
+    background: linear-gradient(to bottom right, #eb0028, #000 );
     z-index: -1;
     width: 90%;
   }
@@ -5896,7 +5896,7 @@ figcaption {
   left: 20px;
   
   height: 90%;
-  background: linear-gradient(to bottom right, #eb0028, #000 );;
+  background: linear-gradient(to bottom right, #eb0028, #000 );
   z-index: -1;
   width: 90%;
 
