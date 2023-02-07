@@ -827,6 +827,7 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+ 
   .w-hidden-main {
     display: inherit !important;
   }
@@ -1540,49 +1541,49 @@ textarea.w-select {
   overflow: hidden;
 }
 
-  .rectangle {
-    position: absolute;
-    top: 50px;
-    left: 20px;
+.rectangle {
+  position: absolute;
+  top: 50px;
+  left: 20px;
 
-    height: 90%;
-    background: linear-gradient(to bottom right, #eb0028, #000 );
-    z-index: -1;
-    width: 90%;
-  }
+  height: 90%;
+  background: linear-gradient(to bottom right, #eb0028, #000);
+  z-index: -1;
+  width: 90%;
+}
 
-  .w-lightbox-content {
-    height: 96vh;
-    margin-top: 2vh;
-  }
-  .w-lightbox-view,
-  .w-lightbox-view:before {
-    height: 96vh;
-  }
-  .w-lightbox-group,
-  .w-lightbox-group .w-lightbox-view,
-  .w-lightbox-group .w-lightbox-view:before {
-    height: 84vh;
-  }
-  .w-lightbox-image {
-    max-width: 96vw;
-    max-height: 96vh;
-  }
-  .w-lightbox-group .w-lightbox-image {
-    max-width: 82.3vw;
-    max-height: 84vh;
-  }
-  .w-lightbox-left,
-  .w-lightbox-right {
-    display: block;
-    opacity: 0.5;
-  }
-  .w-lightbox-close {
-    opacity: 0.8;
-  }
-  .w-lightbox-control:hover {
-    opacity: 1;
-  }
+.w-lightbox-content {
+  height: 96vh;
+  margin-top: 2vh;
+}
+.w-lightbox-view,
+.w-lightbox-view:before {
+  height: 96vh;
+}
+.w-lightbox-group,
+.w-lightbox-group .w-lightbox-view,
+.w-lightbox-group .w-lightbox-view:before {
+  height: 84vh;
+}
+.w-lightbox-image {
+  max-width: 96vw;
+  max-height: 96vh;
+}
+.w-lightbox-group .w-lightbox-image {
+  max-width: 82.3vw;
+  max-height: 84vh;
+}
+.w-lightbox-left,
+.w-lightbox-right {
+  display: block;
+  opacity: 0.5;
+}
+.w-lightbox-close {
+  opacity: 0.8;
+}
+.w-lightbox-control:hover {
+  opacity: 1;
+}
 
 .w-lightbox-inactive,
 .w-lightbox-inactive:hover {
@@ -1911,6 +1912,11 @@ textarea.w-select {
   .w-tab-link {
     display: block;
   }
+}
+.meettheteamdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
 }
 .w-ix-emptyfix:after {
   content: "";
@@ -5170,7 +5176,14 @@ figcaption {
 
   /* border-radius: 50%; */
 }
-
+.text-contact {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
 .card:hover {
   width: 600px;
   transition-delay: 0s;
@@ -5191,11 +5204,15 @@ figcaption {
 }
 
 @media only screen and (min-width: 900px) {
-  
   .whatistedxsection {
     margin: 60px;
     padding: 10px 10%;
   }
+  .meettheteamdiv {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
 }
 
 .card .circle::before {
@@ -5885,12 +5902,11 @@ figcaption {
   position: absolute;
   top: 50px;
   left: 20px;
-  
+
   height: 90%;
-  background: linear-gradient(to bottom right, #eb0028, #000 );
+  background: linear-gradient(to bottom right, #eb0028, #000);
   z-index: -1;
   width: 90%;
-
 }
 
 .overflow-hidden {
@@ -8436,7 +8452,7 @@ figcaption {
   }
 
   .content.pricing-content-details {
-    padding: 2em 1em;
+   media padding: 2em 1em;
   }
 
   .section {
@@ -12059,7 +12075,7 @@ figcaption {
   }
 }
 
-.meettheteam{
+.meettheteam {
   height: auto;
   background-color: black;
   color: white;
@@ -12071,24 +12087,19 @@ figcaption {
   z-index: 2;
 }
 
-.teamqueries{
+.teamqueries {
   margin-bottom: 2em;
+  text-align: center;
 }
 
-.meettheteamdiv{
-  display: flex;
-  flex-direction: row;
-  gap: 3.5em;
-}
-
-.teamdiv{
+.teamdiv {
   width: 300px;
   background-color: #161616;
-  padding: 2em 2em 2em 2em ;
-  margin: 1em 1em 1em 1em ;
+  padding: 2em 2em 2em 2em;
+  margin: 1em 1em 1em 1em;
   border-radius: 20px;
   line-height: 1.5em;
   padding-left: 30px;
   padding-right: 30px;
-  
+  text-align: center;
 }
