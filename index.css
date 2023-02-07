@@ -12061,5 +12061,34 @@ figcaption {
 
 .meettheteam{
   height: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.teamqueries{
+  margin-bottom: 2em;
+}
+
+.meettheteamdiv{
+  display: flex;
+  flex-direction: row;
+  gap: 3.5em;
+}
+
+.teamdiv{
+  width: 300px;
+  background-color: #161616;
+  padding: 2em 2em 2em 2em ;
+  margin: 1em 1em 1em 1em ;
+  border-radius: 20px;
+  line-height: 1.5em;
+  padding-left: 30px;
+  padding-right: 30px;
   
 }
