@@ -1540,6 +1540,27 @@ textarea.w-select {
   overflow: hidden;
 }
 @media (min-width: 768px) {
+  .image-fit-cover {
+    width: 90%;
+    height: 90%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    /* border: 2px dotted pink; */
+    /* border-radius: 50px; */
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+
+    height: 90%;
+    background-color: #ff0000;
+    z-index: -1;
+    width: 90%;
+  }
+
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
@@ -5274,7 +5295,6 @@ figcaption {
 
   .card:hover .card-content {
     width: 100%;
- 
   }
 
   .card:hover .personimg {
@@ -5283,7 +5303,6 @@ figcaption {
     left: 50%;
     transform: translate(-50%, 120%) scale(1);
     height: 300px;
-
   }
 }
 
@@ -5859,28 +5878,6 @@ figcaption {
 
 .help-link-scroll-text {
   font-weight: 600;
-}
-
-.image-fit-cover {
-  width: 90%;
-  height: 90%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  position: relative;
-  /* border: 2px dotted pink; */
-  /* border-radius: 50px; */
-}
-
-.rectangle {
-  position: absolute;
-  top: 50px;
-  left: 20px;
-  
-  height: 90%;
-  background-color: #ff0000;
-  z-index: -1;
-  width: 90%;
-
 }
 
 .overflow-hidden {
