@@ -4478,8 +4478,6 @@ h2 {
 }
 
 h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
   font-family: "Titillium Web", sans-serif;
   font-size: 42px;
   line-height: 1.25;
@@ -4629,7 +4627,9 @@ figcaption {
   -ms-flex-align: start;
   align-items: flex-start;
 }
-
+.items-center {
+  text-align: center;
+}
 .content.vertical-center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4716,19 +4716,27 @@ figcaption {
   display: flex;
   justify-content: center;
   display: block;
-    font-size: 2.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  font-size: 2.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
-.sub-section{
+.about-tedx {
+  font-size: 2.5em;
+  margin-block-start: 0.83em;
+
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.sub-section {
   margin-bottom: 3rem;
-    line-height: 2.4rem;
-    letter-spacing: .02rem;
-    word-spacing: .08rem;
-    font-size: 1.13rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02rem;
+  word-spacing: 0.08rem;
+  font-size: 1.13rem;
 }
 
 .section.main-hero {
