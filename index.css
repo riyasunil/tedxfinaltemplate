@@ -5280,8 +5280,9 @@ figcaption {
 }
 
 .card:hover .personimg {
-  transform: ease 0.5s;
+ 
   transform: translate(50%, -50%) scale(1);
+   transition: ease 0.5s;
 }
 
 @media (max-width: 991px) {
@@ -5300,10 +5301,14 @@ figcaption {
 
   .card:hover {
     height: 600px;
+    transition: ease 0.5s;
   }
 
   .card:hover .card-content {
     width: 100%;
+   
+   
+  
   }
 
   .card:hover .personimg {
