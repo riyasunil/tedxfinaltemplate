@@ -12172,7 +12172,22 @@ figcaption {
 
 .teamqueries {
   margin-bottom: 2em;
+  margin-top:2em ;
   text-align: center;
+  line-height: 1.5em;
+
+  
+  
+}
+.teamqueries a {
+  font-weight: 600;
+  margin-bottom: 2em;
+  margin-top:2em ;
+  text-align: center;
+  line-height: 1.5em;
+
+  
+  
 }
 
 .teamdiv {
