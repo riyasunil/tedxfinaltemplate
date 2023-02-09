@@ -9,6 +9,7 @@ body {
   height: 100vh;
   margin: 0px auto;
   font-family: poppins;
+ 
 }
 body header {
   height: 20%;
@@ -16,7 +17,8 @@ body header {
   align-items: center;
   column-gap: 50px;
 }
-body header .title, body header .content {
+body header .title,
+body header .content {
   flex: 1;
 }
 body header .title h3 {
@@ -85,7 +87,7 @@ body main .profile:nth-child(9) {
 }
 body footer {
   height: 5%;
-  color: #BDBDBD;
+  color: #bdbdbd;
   display: grid;
   place-items: center;
   font-size: 12px;
@@ -143,10 +145,15 @@ body footer a {
     column-gap: 0px;
     row-gap: 0px;
   }
-  body main .profile:nth-child(2), body main .profile:nth-child(4), body main .profile:nth-child(6),body main .profile:nth-child(8) {
+  body main .profile:nth-child(2),
+  body main .profile:nth-child(4),
+  body main .profile:nth-child(6),
+  body main .profile:nth-child(8) {
     margin-top: 50px;
   }
-  body main .profile:nth-child(3), body main .profile:nth-child(5),body main .profile:nth-child(7) {
+  body main .profile:nth-child(3),
+  body main .profile:nth-child(5),
+  body main .profile:nth-child(7) {
     margin-top: 0px;
   }
 }
@@ -189,11 +196,13 @@ body footer a {
   position: relative;
 }
 .card0 {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+    center center no-repeat;
   background-size: 300px;
 }
 .card0:hover {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+    left center no-repeat;
   background-size: 600px;
 }
 .card0:hover h2 {
@@ -203,11 +212,13 @@ body footer a {
   opacity: 1;
 }
 .card1 {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
+    center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
+    left center no-repeat;
   background-size: 600px;
 }
 .card1:hover h2 {
@@ -217,11 +228,13 @@ body footer a {
   opacity: 1;
 }
 .card2 {
-  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg")
+    center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
+  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg")
+    left center no-repeat;
   background-size: 600px;
 }
 .card2:hover h2 {
@@ -231,7 +244,7 @@ body footer a {
   opacity: 1;
 }
 h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
   opacity: 0;
@@ -245,11 +258,15 @@ h2 {
   position: absolute;
   fill: #fff;
   color: #fff;
-  height: 130px;
+  height: 70px;
   top: 226px;
   width: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
