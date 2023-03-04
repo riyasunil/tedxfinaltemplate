@@ -12207,15 +12207,15 @@ figcaption {
 /*Butterly*/
 .motionsize{
   scale: 0.2;
-    offset-path: path('M40,-20 C20,-100 130,0 -300,-300');
-     animation: move 6000ms  alternate infinite;
+    offset-path: path('M10,-20 C20,-120 ,-130 20 -300,-300');
+     animation: move 8000ms  alternate infinite;
     
 
 }
 .motionsize1{
   scale :0.2;
-   offset-path: path('M10,100 C10,100 200,0 600,300');
-   animation: move 6000ms  alternate infinite;
+   offset-path: path('M10,-100 C10,300 250,0 500,-100');
+   animation: move 8000ms  alternate infinite;
   
 }
 .container-butterfly{
