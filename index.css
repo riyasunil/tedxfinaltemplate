@@ -5284,6 +5284,9 @@ figcaption {
   transform: translate(50%, -50%) scale(1);
    transition: ease 0.5s;
 }
+.card-content p{
+  font: 0.9rem sans-serif;
+}
 
 @media (max-width: 991px) {
   .contactus {
