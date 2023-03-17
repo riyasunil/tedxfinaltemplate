@@ -12768,7 +12768,7 @@ a{
 @media (max-width:500px){
     .container-speaker{
         flex-direction: column;
-        min-height: 100vh;
+        height: 100vh;
         height: auto
       ;
     }
